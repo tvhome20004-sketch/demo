@@ -26,6 +26,10 @@
       "image": "/images/service-cloud.jpg",
       "icon": "☁️"
     },
-    {}
+    {
+      "title": "ds",
+      "description": "ds",
+      "image": "/images/WhatsApp-Image-2026-05-06-at-14.06.36.jpeg"
+    }
   ]
 }
