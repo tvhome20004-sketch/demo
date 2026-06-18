@@ -3,11 +3,6 @@
   "sectionSubtitle": "A showcase of our recent projects and work",
   "images": [
     {
-      "image": "/images/gallery-1.jpg",
-      "caption": "E-commerce Platform Redesign",
-      "alt": "Modern e-commerce website showcasing products"
-    },
-    {
       "image": "/images/gallery-2.jpg",
       "caption": "Mobile App Dashboard",
       "alt": "Analytics dashboard mobile application"
@@ -31,6 +26,9 @@
       "image": "/images/gallery-6.jpg",
       "caption": "Mobile App Design",
       "alt": "Mobile application user interface design"
+    },
+    {
+      "image": "/images/campus.jpeg"
     }
   ]
 }
