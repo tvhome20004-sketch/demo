@@ -3,6 +3,7 @@ backend:
   repo: tvhome20004-sketch/demo
   branch: master
   site_domain: demo-eight-theta-43.vercel.app
+  base_url: https://oauth.decap-cms.app
 
 media_folder: public/images
 public_folder: /images
