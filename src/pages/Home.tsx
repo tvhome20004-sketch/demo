@@ -28,7 +28,7 @@ export default function Home() {
       <Services
         sectionTitle={servicesData.sectionTitle}
         sectionSubtitle={servicesData.sectionSubtitle}
-        services={servicesData.services}
+        services={servicesData.services as any}
       />
       <Gallery
         sectionTitle={galleryData.sectionTitle}
