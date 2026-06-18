@@ -1,0 +1,68 @@
+fragment HomeParts on Home {
+  __typename
+  heroTitle
+  heroSubtitle
+  heroImage
+  ctaText
+  ctaLink
+  about {
+    __typename
+    title
+    description
+    image
+  }
+  testimonials {
+    __typename
+    title
+    items {
+      __typename
+      quote
+      author
+      role
+    }
+  }
+}
+
+fragment ServiceParts on Service {
+  __typename
+  sectionTitle
+  sectionSubtitle
+  services {
+    __typename
+    title
+    description
+    image
+    icon
+  }
+}
+
+fragment GalleryParts on Gallery {
+  __typename
+  sectionTitle
+  sectionSubtitle
+  images {
+    __typename
+    image
+    caption
+    alt
+  }
+}
+
+fragment ContactParts on Contact {
+  __typename
+  sectionTitle
+  sectionSubtitle
+  company {
+    __typename
+    name
+    phone
+    email
+    address
+  }
+  social {
+    __typename
+    platform
+    url
+    icon
+  }
+}
