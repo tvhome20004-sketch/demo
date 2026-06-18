@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: tvhome20004-sketch/demo
-  branch: main
+  branch: master
   site_domain: your-site.netlify.app
 
 media_folder: public/images
