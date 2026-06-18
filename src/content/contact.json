@@ -1,0 +1,32 @@
+{
+  "sectionTitle": "Get In Touch",
+  "sectionSubtitle": "Have a project in mind? We'd love to hear from you.",
+  "company": {
+    "name": "Apex Business Solutions",
+    "phone": "+1 (555) 123-4567",
+    "email": "hello@apexbizsolutions.com",
+    "address": "123 Innovation Drive, Suite 400, San Francisco, CA 94105"
+  },
+  "social": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com",
+      "icon": "💼"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "🐦"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com",
+      "icon": "🐙"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com",
+      "icon": "📸"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+backend:
+  name: github
+  repo: tvhome20004-sketch/demo
+  branch: main
+  site_domain: your-site.netlify.app
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: home
+    label: Homepage
+    description: Edit the homepage hero section content
+    files:
+      - label: Hero Section
+        name: hero
+        file: src/content/home.json
+        fields:
+          - { label: Hero Title, name: heroTitle, widget: string }
+          - { label: Hero Subtitle, name: heroSubtitle, widget: text }
+          - { label: Hero Image, name: heroImage, widget: image, default: /images/hero.jpg }
+          - { label: CTA Button Text, name: ctaText, widget: string }
+          - { label: CTA Button Link, name: ctaLink, widget: string, default: "#contact" }
+          - label: About Section
+            name: about
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Image, name: image, widget: image, required: false }
+          - label: Testimonials Section
+            name: testimonials
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Quote, name: quote, widget: text }
+                  - { label: Author, name: author, widget: string }
+                  - { label: Role, name: role, widget: string }
+
+  - name: services
+    label: Services
+    label_singular: Service
+    description: Manage your service offerings
+    files:
+      - label: Services Page
+        name: services
+        file: src/content/services.json
+        fields:
+          - { label: Section Title, name: sectionTitle, widget: string }
+          - { label: Section Subtitle, name: sectionSubtitle, widget: text, required: false }
+          - label: Service Cards
+            name: services
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Image, name: image, widget: image, required: false }
+              - { label: Icon (emoji), name: icon, widget: string, required: false }
+
+  - name: gallery
+    label: Gallery
+    description: Manage gallery images
+    files:
+      - label: Gallery Page
+        name: gallery
+        file: src/content/gallery.json
+        fields:
+          - { label: Section Title, name: sectionTitle, widget: string }
+          - { label: Section Subtitle, name: sectionSubtitle, widget: text, required: false }
+          - label: Gallery Images
+            name: images
+            widget: list
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Caption, name: caption, widget: string, required: false }
+              - { label: Alt Text, name: alt, widget: string, required: false }
+
+  - name: contact
+    label: Contact Information
+    description: Edit contact details and social links
+    files:
+      - label: Contact Info
+        name: contact
+        file: src/content/contact.json
+        fields:
+          - { label: Section Title, name: sectionTitle, widget: string }
+          - { label: Section Subtitle, name: sectionSubtitle, widget: text, required: false }
+          - label: Company Details
+            name: company
+            widget: object
+            fields:
+              - { label: Company Name, name: name, widget: string }
+              - { label: Phone, name: phone, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: Address, name: address, widget: text }
+          - label: Social Media Links
+            name: social
+            widget: list
+            fields:
+              - { label: Platform, name: platform, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Icon (emoji), name: icon, widget: string, required: false }

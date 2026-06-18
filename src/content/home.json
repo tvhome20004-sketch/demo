@@ -1,0 +1,32 @@
+{
+  "heroTitle": "We Build Digital Solutions That Drive Growth",
+  "heroSubtitle": "Empowering businesses with modern web applications, strategic consulting, and cutting-edge technology to accelerate your digital transformation.",
+  "heroImage": "/images/hero.jpg",
+  "ctaText": "Get Started Today",
+  "ctaLink": "#contact",
+  "about": {
+    "title": "Who We Are",
+    "description": "Apex Business Solutions is a team of passionate developers, designers, and strategists dedicated to helping businesses thrive in the digital age. With over a decade of combined experience, we deliver tailored solutions that make an impact.\n\nWe believe in building long-term partnerships with our clients, understanding their unique challenges, and crafting solutions that exceed expectations. Our approach combines technical excellence with creative thinking to deliver results that matter.",
+    "image": "/images/about.jpg"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "items": [
+      {
+        "quote": "Working with Apex was a game-changer for our business. They delivered a platform that exceeded our expectations and transformed our online presence.",
+        "author": "Sarah Johnson",
+        "role": "CEO, TechStart Inc."
+      },
+      {
+        "quote": "The team's expertise and professionalism made the entire process seamless. Our new system has improved efficiency by 40%.",
+        "author": "Michael Chen",
+        "role": "CTO, GrowthLab"
+      },
+      {
+        "quote": "From concept to launch, Apex was with us every step of the way. Their attention to detail and user-centric approach made all the difference.",
+        "author": "Emily Rodriguez",
+        "role": "Founder, Elevate Media"
+      }
+    ]
+  }
+}

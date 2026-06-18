@@ -1,0 +1,36 @@
+{
+  "sectionTitle": "Our Gallery",
+  "sectionSubtitle": "A showcase of our recent projects and work",
+  "images": [
+    {
+      "image": "/images/gallery-1.jpg",
+      "caption": "E-commerce Platform Redesign",
+      "alt": "Modern e-commerce website showcasing products"
+    },
+    {
+      "image": "/images/gallery-2.jpg",
+      "caption": "Mobile App Dashboard",
+      "alt": "Analytics dashboard mobile application"
+    },
+    {
+      "image": "/images/gallery-3.jpg",
+      "caption": "Corporate Website",
+      "alt": "Professional corporate website design"
+    },
+    {
+      "image": "/images/gallery-4.jpg",
+      "caption": "SaaS Platform",
+      "alt": "Software as a Service platform interface"
+    },
+    {
+      "image": "/images/gallery-5.jpg",
+      "caption": "Brand Identity Project",
+      "alt": "Brand identity and logo design showcase"
+    },
+    {
+      "image": "/images/gallery-6.jpg",
+      "caption": "Mobile App Design",
+      "alt": "Mobile application user interface design"
+    }
+  ]
+}

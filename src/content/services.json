@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "Our Services",
+  "sectionSubtitle": "Comprehensive solutions tailored to your business needs",
+  "services": [
+    {
+      "title": "Web Development",
+      "description": "Custom websites and web applications built with modern frameworks. Responsive, fast, and optimized for search engines to help you stand out online.",
+      "image": "/images/service-web.jpg",
+      "icon": "🌐"
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "User-centered design that combines aesthetics with functionality. We create intuitive interfaces that delight users and drive conversions.",
+      "image": "/images/service-design.jpg",
+      "icon": "🎨"
+    },
+    {
+      "title": "Digital Strategy",
+      "description": "Data-driven strategies to grow your online presence. From SEO optimization to content strategy, we help you reach the right audience.",
+      "image": "/images/service-strategy.jpg",
+      "icon": "📊"
+    },
+    {
+      "title": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and deployment pipelines. We help you leverage AWS, GCP, and other platforms for reliable, cost-effective hosting.",
+      "image": "/images/service-cloud.jpg",
+      "icon": "☁️"
+    }
+  ]
+}
