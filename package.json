@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"vite\"",
     "dev:vite": "vite",
-    "build": "tsc -b && tinacms build && vite build",
+    "build": "tsc -b && tinacms build --skip-cloud-checks && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "tina:build": "tinacms build"
