@@ -28,7 +28,9 @@
       "alt": "Mobile application user interface design"
     },
     {
-      "image": "/images/campus.jpeg"
+      "image": "/images/campus.jpeg",
+      "caption": "Campus Project",
+      "alt": "Campus building project showcase"
     }
   ]
 }
